@@ -145,11 +145,13 @@ A tabela abaixo mostra as métricas de desempenho para os modelos Random Forest 
 | F1-Score    | 1.0             | 0.9645              | 0.9631             | 0.4099                | 0.4099                | 0.4033                |
 
 Principais Observações
-Random Forest:
+
+1. **Random Forest:**
 
 Apresenta desempenho perfeito (Acurácia, Precisão, Revocação e F1-Score iguais a 1.0) no primeiro conjunto de dados.
 Mantém alto desempenho no segundo e terceiro conjuntos de dados, com Acurácia em torno de 0.964 e F1-Score em torno de 0.964.
-Regressão Logística:
+
+2. **Logistic Regression:**
 
 Possui desempenho muito inferior ao Random Forest.
 A acurácia fica em torno de 0.566 em todos os três conjuntos de dados, indicando que é significativamente menos eficaz.
@@ -157,4 +159,3 @@ Precisão, Revocação e F1-Score estão todos em torno de 0.32 e 0.41, respecti
 Resumo
 Algoritmo de Melhor Desempenho: O Random Forest mostra consistentemente alto desempenho em todas as métricas e conjuntos de dados.
 Algoritmo de Pior Desempenho: A Regressão Logística tem um desempenho ruim, com Acurácia, Precisão, Revocação e F1-Score muito menores em comparação com o Random Forest.
-
