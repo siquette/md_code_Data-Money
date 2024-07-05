@@ -62,3 +62,6 @@ all_results = {model_name: evaluate_model(model, X_train, y_train, X_validation,
 #%% Convert results to a pandas DataFrame for better visualization
 results_df = pd.DataFrame(all_results).T.stack().unstack(0)
 print(results_df)
+
+#%%
+results_df.to_csv(r'C:\Users\rodri\Documents\ds\ml\code\results_df_class.csv', index=False)
